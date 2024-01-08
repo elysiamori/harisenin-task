@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 33px 9%;
+    background: transparent;
+    margin-bottom: 100px;
+}
+
+
+.logo {
+    margin-right: 300px;
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+}
+
+.navlist {
+    display: flex;
+}
+
+.navlist a {
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 60px;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+}
+
+.navlist a:hover {
+    border-bottom: 2px solid white;
+}
+
+#menu-icon {
+    color: white;
+    font-size: 35px;
+    z-index: 10001;
+    cursor: pointer;
+}
+
+
+.rubik {
+    height: 100%;
+    weight: 100%;
+    min-height: 100vh;
+    /* Background Gradient */
+    background: linear-gradient(245.59deg, #00FFFF 0%, #00C8C8 28.53%, #08f1f1 75.52%);
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+}
+
+.rubik-img {
+    margin-left: 120px;
+    object-fit: cover;
+}
+
+section {
+    margin-top: 50;
+    padding: 0 19%;
+}
+
+.rubik-text h5{
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.rubik-text h1{
+    font-family: 'Salsa', cursive ;
+    font-size: 90px;
+    line-height: 1;
+    color: white;
+    margin: 0 0 45px;
+}
+
+.rubik-text p{
+    color: white;
+    font-size: 15px;
+    line-height: 1.9;
+    margin-bottom: 40px;
+}
+
+.rubik-text a{
+    display: inline-block;
+    padding: 12px 30px;
+    background: #00FFFF;
+    color: white;
+    border: 1px solid transparent;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 30px;
+    text-transform: uppercase;
+    transition: all .55s ease;
+}
+
+.rubik-text a:hover{
+    background: transparent;
+    border: 1px solid white;
+    transform: translateX(8px);
+}
+
+.icons{
+    position: absolute;
+    top: 50%;
+    padding: 0 9%;
+    transform: translateY(-50%);
+}
+
+.icons i{
+    display: block;
+    margin: 26px 0;
+    font-size: 24px;
+    color: white;
+    transition: all .55s ease;
+}
+
+.icons i:hover{
+    color: black;
+    transform: translateY(-5px);
+}
+
+.scroll-down{
+    position: absolute;
+    bottom: 6%;
+    right: 9%;
+}
+
+.scroll-down i{
+    display: block;
+    padding: 12px;
+    font-size: 25px;
+    color: white;
+    background: #00C8C8;
+    border-radius: 30px;
+    transition: all .50s ease;
+}
+
+.scroll-down i:hover{
+    transform: translateY(-5px);
+}
+
