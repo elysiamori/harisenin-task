@@ -59,7 +59,7 @@ header {
     weight: 100%;
     min-height: 100vh;
     /* Background Gradient */
-    background: linear-gradient(245.59deg, #00FFFF 0%, #00C8C8 28.53%, #08f1f1 75.52%);
+    background: linear-gradient(245.59deg, #000000 0%, #000000 28.53%, #000000 75.52%);
     position: relative;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
