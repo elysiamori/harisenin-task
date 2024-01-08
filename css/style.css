@@ -43,7 +43,7 @@ header {
 }
 
 .navlist a:hover {
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid aqua;
 }
 
 #menu-icon {
@@ -69,7 +69,15 @@ header {
 
 .rubik-img {
     margin-left: 120px;
+}
+
+.rubik-img {
     object-fit: cover;
+    transition: all 0.5s ease;
+}
+
+.rubik-img img:hover{
+    transform: scale(1.2);
 }
 
 section {
@@ -90,6 +98,12 @@ section {
     line-height: 1;
     color: white;
     margin: 0 0 45px;
+    transition: all .55s ease;
+}
+
+.rubik-text h1:hover{
+    color: aqua;
+    transform: translateY(-5px);
 }
 
 .rubik-text p{
@@ -135,7 +149,7 @@ section {
 }
 
 .icons i:hover{
-    color: black;
+    color: aqua;
     transform: translateY(-5px);
 }
 
